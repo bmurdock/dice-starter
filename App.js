@@ -6,6 +6,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Main from './screens/Main';
 import Dice from './screens/Dice';
+import MagicBall from './screens/MagicBall';
 
 const Stack = createStackNavigator();
 
@@ -23,7 +24,7 @@ export default function App() {
           />
                   <Stack.Screen
             name="8 Ball"
-            component={Main}
+            component={MagicBall}
           />
 
 

@@ -19,7 +19,7 @@ export default function Main({navigation, route})
                 onPress={() => {
                     // don't forget to change this to the correct
                     // screen whenever you build it
-                    navigation.navigate('Dice');
+                    navigation.navigate('8 Ball');
                 }}
             />
         </View>
